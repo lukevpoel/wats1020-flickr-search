@@ -24,7 +24,9 @@ ul#images li button {
 --- End of grid layout styles. */
 
 ul#images {
+    margin: 0, auto;
     list-style-type: none;
+    text-align: center;
 }
 
 ul#images .placeholder {
@@ -34,6 +36,16 @@ ul#images .placeholder {
     width: 100%;
     margin: 2em;
 }
+
+li#images {
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
+}
+
+ul#images .col-sm-12{
+  padding: 15px;
+}
 .modal-body img {
     width: 100%;
     height: auto;
@@ -42,16 +54,3 @@ ul#images .placeholder {
 hr {
     clear:both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
